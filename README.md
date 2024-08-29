@@ -1,14 +1,10 @@
 # Tree Lnk
 
-**Tailor-made bio links for coding enthusiasts and creatives. The ideal custom alternative to Linktree, Bio, and other link-shortening platforms.**
+**Custom bio links for creatives who love coding.The ideal custom alternative to Linktree, Bio, and other link-shortening platforms.**
 
-A perfect custom alternative for linktree, bio and other shortner platform. Check live version here [nxtlnk.xyz](https://nxtlnk.xyz)
+A perfect custom alternative for linktree, bio and other shortner platform. Check live version here [treelnk](https://treelnk.vercel.app)
 
 Pull requests are always welcome. In case you want inspiration or new features on what to add, check out the issues for feature requests.
-
-Coffee fuels coding ☕️
-
-<a href="https://www.buymeacoffee.com/realvjy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 **Table of Contents**
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -34,7 +30,7 @@ Coffee fuels coding ☕️
   
   
 ## Usage
-`nxt-lnk` template used to create your custom bio link and self-host on Vercel or Netlify using your own domain. Need little understanding of code :) ☕
+`treelnk` template used to create your custom bio link and self-host on Vercel or Netlify using your own domain. Need little understanding of code :) ☕
 
 Usually, you don't need to worry a lot about coding if you're just updating information in `BioData.js` and `LinkData.js`. To deep dive know more  [Next.js](https://nextjs.org/docs) and [React](https://reactjs.org/docs/getting-started.html) official documentaion.
 
@@ -43,15 +39,15 @@ For customization used [styled components](https://styled-components.com/). If y
 **Template auto support dark-mode depending on system cofig.**
 
 ## Quick Start
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/realvjy/nxt-lnk) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/realvjy/nxt-lnk)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/realvjy/treelnk) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/realvjy/treelnk)
 
 
 ## Manual Setup
 Run the following command to create a new project with this template:
 ```bash
-yarn create next-app your-app-name -e https://github.com/realvjy/nxt-lnk
+yarn create next-app your-app-name -e https://github.com/tahermaxse/treelnk
 # or
-npx create-next-app your-app-name -e https://github.com/realvjy/nxt-lnk
+npx create-next-app your-app-name -e https://github.com/tahermaxse/treelnk
 ```
 
 ## Getting Started
@@ -85,16 +81,19 @@ All images stored inside `public` folder of the project.
 ```jsx
 const bioData = [
     {
-        name: 'vijay verma',
-        username: '@realvjy',
-        url: 'https://vjy.me',
+        name: 'tree lnk',
+        username: 'treelnk.vercel.app',
+        url: 'https://treelnk.vercel.app',
         titleImg: true,
         avatar: '/avatar.png',
         nftAvatar: true,
-        description: 'A short description/bio about you goes here',
-        subdesc: 'This is secondary description. If you do not need, you can remove it',
-        newProductUrl: 'https://vjy.me/lnk',
-        newProduct: true,
+        description: 'Custom bio links for creatives who love coding.The ideal custom alternative to Linktree, Bio, and other link-shortening platforms.',
+        descShow: true,
+        subdesc: 'Use this template and deploy on vercel for free',
+        subdescShow: true,
+        author: 'tahermax',
+        authorURL: 'https://twitter.com/taher_max_',
+        footerText: 'made by'
     },
 ];
 
@@ -123,7 +122,7 @@ const webLinks = [
     // All social profile
     {
         title: 'Twitter',
-        url: 'https://twitter.com/realvjy',
+        url: 'https://twitter.com/taher_max_',
         type: 'social',
         icon: '/twitter.svg',
         on: true
@@ -133,7 +132,7 @@ const webLinks = [
     
     {
         title: 'Instagram',
-        url: 'https://instagram.com/realvjy',
+        url: 'https://instagram.com/taher_max_',
         type: 'social',
         icon: '/insta.svg',
         on: true
@@ -146,6 +145,7 @@ Find `type: social` and change `on:true|false`
 
 | Title           | on (default)    | 
 | ---------       | --------        | 
+| `Thread`       | `true`          | 
 | `Twitter`       | `true`          | 
 | `Instagram`     | `true`          | 
 | `Dribbble`      | `false`          | 
@@ -215,24 +215,24 @@ const install = allLinks.filter((el) => {
 Add new section with specific `type` in `Linkdata.js`. Then copy `LinkSection` Code to create new section in `WebLinks.js` file. Make sure to create get data of that section as well.
       
 ## SEO
-Already added `next-seo`. All you have to do is `update next-seo.config.js` file. Make sure to add direct link of `preview.jpg`file, like - `https://vjy.me/preview.jpg`.
+Already added `next-seo`. All you have to do is `update next-seo.config.js` file. Make sure to add direct link of `preview.jpg`file, like - `https://taher.me/preview.jpg`.
 
 ## Google Analytics
 In Vercel, you can set this by going to your project, then Settings and finally [Environments Variables](https://vercel.com/docs/concepts/projects/environment-variables). To get GA 4 code `G-ZXX0000XXX` follow [these steps ](https://support.google.com/analytics/answer/9304153?hl=en)
 
-<img src="https://vjy.me/ga-analytics.png" style="width: 500px !important;"/>
+<img src="./public/ga-analytics.png" style="width: 500px !important;"/>
 
 
 ## Custom Domain
-By default vercel give you a subdomain with your project name like - [nxtlnk.vercel.app](https:nxtlnk.vercel.app). But you can add own domain. 
+By default vercel give you a subdomain with your project name like - [treelnk.vercel.app](https:treelnk.vercel.app). But you can add own domain. 
 
-Vercel/Netlify give you option to add any domain to the deployed project like [vjy.me/lnk](https://vjy.me/lnk) or [nxtlnk.xyz](https://nxtlnk.xyz). All you have to do is follow official [Vercel documentaion](https://vercel.com/docs/concepts/projects/domains/add-a-domain) or [Netlify Documentaion](https://www.netlify.com/blog/2021/12/20/how-to-add-custom-domains-to-netlify-sites/)
+Vercel/Netlify give you option to add any domain to the deployed project like [taher.me/lnk](https://vjy.me/lnk) or [treelnk.xyz](https://treelnk.xyz). All you have to do is follow official [Vercel documentaion](https://vercel.com/docs/concepts/projects/domains/add-a-domain) or [Netlify Documentaion](https://www.netlify.com/blog/2021/12/20/how-to-add-custom-domains-to-netlify-sites/)
 
 ## Favicon
 Create a `favicon.ico` file and place inside `public` folder. I use [favicon.io](https://favicon.io/favicon-converter/)
 
 ## Contributors
-Created by [realvjy](https://twitter.com/realvjy). You are always welcome to share your feedback on twitter or any social media platform.
+Created by [Tahermax](https://twitter.com/taher_max-). You are always welcome to share your feedback on twitter or any social media platform.
 
 If you want to contribute. Just create a pull request. 
     
