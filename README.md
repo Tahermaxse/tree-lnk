@@ -45,9 +45,9 @@ For customization used [styled components](https://styled-components.com/). If y
 ## Manual Setup
 Run the following command to create a new project with this template:
 ```bash
-yarn create next-app your-app-name -e https://github.com/tahermaxse/treelnk
+yarn create next-app your-app-name -e https://github.com/tahermaxse/tree-lnk
 # or
-npx create-next-app your-app-name -e https://github.com/tahermaxse/treelnk
+npx create-next-app your-app-name -e https://github.com/tahermaxse/tree-lnk
 ```
 
 ## Getting Started
