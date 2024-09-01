@@ -59,6 +59,7 @@ export const Tag = styled.div`
     display: inline-flex;
     border: 1px solid var(--black);
     
+    
     &.red{
         background: var(--red);
     }

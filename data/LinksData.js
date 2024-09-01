@@ -149,7 +149,6 @@ const webLinks = [
         icon: '/bmc.png',
         on: false
     },
-
     {
         title: 'link demo',
         url: 'https://taher-react-portfolio.vercel.app/',
@@ -157,7 +156,10 @@ const webLinks = [
         icon: '/tahermax.png',
         on: true
     },
-
+    {
+        type:'other',
+        newProduct :true,
+    },
     {
         title: 'maker website',
         url: 'https://vjy.me',
