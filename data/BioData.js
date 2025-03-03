@@ -1,7 +1,7 @@
 // date: 29 Aug, 2024
 const bioData = [
     {
-        name: 'tree lnk',
+        name: 'TVA SNIPE',
         username: 'treelnk.vercel.app',
         url: 'https://treelnk.vercel.app',
         titleImg: true,
