@@ -2,7 +2,7 @@ export default {
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        title: 'tree lnks by tahermax',
+        title: 'TVA SNIPE',
         url: 'https://taher-react-portfolio.vercel.app',
         description: 'Custom bio links for creatives who love coding.The ideal custom alternative to Linktree, Bio, and other link-shortening platforms.',
         locale: 'en_EN',
